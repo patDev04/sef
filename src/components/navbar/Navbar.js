@@ -21,7 +21,7 @@ const Navbar = () => {
               <span>Construct</span> | Home Renovations
             </h1>
             <ul className="navItems">
-              <NavLink to={"/"} className="navLinks">
+              <NavLink to={"/home"} className="navLinks">
                 home
               </NavLink>
               <NavLink to={"/contact"} className="navLinks">

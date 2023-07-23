@@ -22,7 +22,7 @@ const Tab = () => {
 
       <div className="tabTab">
         <ul className={showSupport ? "tabTabItems active" : "tabTabItems"}>
-          <NavLink to={"/"} className="tabnavLink">
+          <NavLink to={"/home"} className="tabnavLink">
             Loft conversion
           </NavLink>
           <NavLink to={"/contact"} className="tabnavLink">

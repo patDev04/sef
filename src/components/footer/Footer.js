@@ -31,27 +31,27 @@ const Footer = () => {
               <br />
               <ul className="footerItems">
                 <li>
-                  <Link to={"/"} className="footerLink">
+                  <Link to={"/home"} className="footerLink">
                     home
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/"} className="footerLink">
+                  <Link to={"/about"} className="footerLink">
                     about
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/"} className="footerLink">
+                  <Link to={"/blog"} className="footerLink">
                     blog
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/"} className="footerLink">
+                  <Link to={"/service"} className="footerLink">
                     service
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/"} className="footerLink">
+                  <Link to={"/contact"} className="footerLink">
                     contact
                   </Link>
                 </li>
