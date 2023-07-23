@@ -1,0 +1,73 @@
+@import "../../variables.scss";
+.navFirst {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.116);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 18rem;
+  background-color: white;
+  width: 100%;
+
+  @include breakpoint(xl) {
+    padding: 1rem 6rem;
+  }
+  @include breakpoint(lg) {
+    padding: 1rem 2rem;
+  }
+
+  .hamburger {
+    font-size: 2rem;
+    display: none;
+    @include breakpoint(lg) {
+      display: block;
+    }
+  }
+
+  .logo {
+    margin-right: 2rem;
+    font-size: 2rem;
+
+    span {
+      color: $main;
+    }
+  }
+
+  .navItems,
+  .navContact,
+  .navContainer {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navContact {
+    align-items: flex-start;
+  }
+
+  .navItems,
+  .navContact {
+    @include breakpoint(lg) {
+      display: none;
+    }
+  }
+
+  .navLinks {
+    padding: 1rem;
+    font-size: 14px;
+    text-decoration: none;
+    color: initial;
+    text-transform: capitalize;
+  }
+
+  .navContactItems {
+    margin-left: 2rem;
+    .contactDetails {
+      font-size: 12px;
+    }
+  }
+}

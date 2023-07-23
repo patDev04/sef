@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+.panel {
+}
+.panelContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 10px;
+  position: relative;
+  top: -3rem;
+  background-color: white;
+  @include breakpoint(lg) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include breakpoint(sm) {
+    display: block;
+  }
+
+  .panelCard {
+    padding: 3rem;
+    border-right: 2px solid rgba(204, 204, 204, 0.39);
+    @include breakpoint(sm) {
+      border-right: none;
+    }
+  }
+
+  .panelCard:nth-child(4) {
+    border-right: none;
+  }
+}

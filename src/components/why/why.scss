@@ -1,0 +1,89 @@
+@import "../../variables.scss";
+
+.why {
+  background-color: rgb(7, 7, 7);
+  color: white;
+  padding: 12rem 0;
+}
+
+.whyContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  @include breakpoint(lg) {
+    display: block;
+  }
+}
+
+.tabContainer {
+  border-bottom: solid grey 1px;
+  position: relative;
+}
+
+.blockTabs {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  @include breakpoint(sm) {
+    display: block;
+  }
+}
+
+.tabs {
+  padding: 1.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  @include breakpoint(sm) {
+    padding: 1.5rem 0;
+  }
+}
+.content {
+  display: none;
+  padding: 2rem;
+  @include breakpoint(sm) {
+    padding: 2rem 0;
+  }
+}
+
+.active-content {
+  display: block;
+}
+
+.active-tabs::after {
+  content: "";
+  display: block;
+  position: relative;
+  bottom: -1.7rem;
+  height: 5px;
+  left: 0;
+  width: 100%;
+  background-color: $main;
+  border-radius: 5rem;
+}
+
+.service-btn {
+  font-family: inherit;
+  padding: 1.5rem;
+  border: none;
+  // border-radius: 3px;
+  text-transform: uppercase;
+  background-color: $main;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $main-btn-hover;
+  }
+}
+
+.colone {
+  @include breakpoint(lg) {
+    margin-bottom: 2rem;
+  }
+}
+
+.footer-col {
+  @include breakpoint(lg) {
+    margin-bottom: 2rem;
+  }
+}
