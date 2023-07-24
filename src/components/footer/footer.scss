@@ -1,6 +1,7 @@
 @import "../../variables.scss";
 
 .footer {
+  // position: relative;
   padding: 6rem 0;
   border-top: solid rgb(19, 19, 19) 1px;
 }
@@ -12,9 +13,6 @@
   @include breakpoint(lg) {
     display: block;
   }
-}
-
-.footerItems {
 }
 
 .footerLink {
@@ -39,7 +37,9 @@
 }
 
 .copyright {
+  position: relative;
   background-color: teal;
   padding: 0.6rem 0;
   color: white;
+  bottom: 0;
 }

@@ -7,32 +7,32 @@ import {
   SlSocialYoutube,
   SlSocialTwitter,
 } from "react-icons/sl";
-const Sidemenu = ({ toggle }) => {
+const Sidemenu = ({ toggle, closeSidemenu }) => {
   return (
     <aside className={toggle ? "sidebar active" : "sidebar inactive"}>
       <ul className="">
         <li className="sidelist">
-          <Link to={"/"} className="Links">
+          <Link to={"/"} className="Links" onClick={closeSidemenu}>
             home
           </Link>
         </li>
         <li className="sidelist">
-          <Link to={"/contact"} className="Links">
+          <Link to={"/contact"} className="Links" onClick={closeSidemenu}>
             contact
           </Link>
         </li>
         <li className="sidelist">
-          <Link to={"/service"} className="Links">
+          <Link to={"/service"} className="Links" onClick={closeSidemenu}>
             service
           </Link>
         </li>
         <li className="sidelist">
-          <Link to={"/about"} className="Links">
+          <Link to={"/about"} className="Links" onClick={closeSidemenu}>
             about
           </Link>
         </li>
         <li className="sidelist">
-          <Link to={"/blog"} className="Links">
+          <Link to={"/blog"} className="Links" onClick={closeSidemenu}>
             blog
           </Link>
         </li>

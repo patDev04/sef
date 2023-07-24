@@ -1,6 +1,11 @@
 $background: rgb(250, 250, 250);
 $darkgrey: rgb(27, 27, 27);
 $main: rgb(255, 187, 0);
+$greenLight: #8fef84;
+$greenLight2: #44bc50;
+$green: #0d7f39;
+$greenDark2: #004b24;
+$greenDark: #00211a;
 $main-btn-hover: rgb(253, 220, 32);
 $secondary: #f2f2f2;
 
@@ -29,7 +34,7 @@ $xtra-small: 480px;
       @content;
     }
   }
-  @if $point==lg {
+  @if $point==md {
     @media screen and (max-width: $medium) {
       @content;
     }

@@ -1,3 +1,7 @@
+@import "./variables.scss";
+
 .App {
-  // margin: 6rem;
+  @include breakpoint(sm) {
+    margin-top: 4.8rem;
+  }
 }

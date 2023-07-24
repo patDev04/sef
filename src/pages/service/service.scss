@@ -3,41 +3,46 @@
 .service {
   .serviceImg {
     width: 100%;
-    height: 60vh;
-    background-color: $main;
+    height: 30vh;
+    background-color: $greenDark;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
 
-    @include breakpoint(lg) {
-      height: 65vh;
-    }
     @include breakpoint(sm) {
-      height: 80vh;
+      height: 35vh;
     }
   }
 
   .serviceHeader {
     text-align: center;
-    font-size: 6rem;
-    color: black;
-    // text-shadow: 1px 1px 5px #000000d5;
+    font-size: 4rem;
     font-weight: 800;
     .text-color {
-      color: $main;
+      color: $green;
     }
   }
 }
 
 .serviceCardContainer {
   position: relative;
-  top: -7rem;
+  top: -5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   gap: 20px;
+  @include breakpoint(md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include breakpoint(sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .serviceCard {
+    width: 100%;
+
     .cardImg {
       width: 100%;
       height: 20rem;

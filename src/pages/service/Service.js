@@ -1,7 +1,6 @@
 import React from "react";
 import "./service.scss";
 import { Link } from "react-router-dom";
-import img1 from "../../images/IMG_1091.jpeg";
 import { service } from "../service/serviceData.js";
 
 const Service = () => {

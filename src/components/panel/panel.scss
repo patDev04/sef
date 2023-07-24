@@ -8,6 +8,7 @@
   position: relative;
   top: -3rem;
   background-color: white;
+  padding: 1rem 0;
   @include breakpoint(lg) {
     grid-template-columns: 1fr 1fr;
   }
@@ -18,12 +19,20 @@
   .panelCard {
     padding: 3rem;
     border-right: 2px solid rgba(204, 204, 204, 0.39);
+
     @include breakpoint(sm) {
       border-right: none;
+      border-bottom: 2px solid rgba(204, 204, 204, 0.39);
     }
   }
 
   .panelCard:nth-child(4) {
     border-right: none;
+  }
+
+  .panelCard:nth-child(2) {
+    @include breakpoint(lg) {
+      border-right: none;
+    }
   }
 }
