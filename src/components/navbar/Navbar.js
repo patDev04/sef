@@ -4,9 +4,14 @@ import { NavLink } from "react-router-dom";
 import Tab from "./Tab";
 import Sidemenu from "../sidemenu/Sidemenu";
 import { RxHamburgerMenu } from "react-icons/rx";
+import logo from "../../images/logo.svg";
 
 const Navbar = () => {
   const [toggleSideMenu, setToggleSideMenu] = useState(false);
+
+  const handleClose = () => {
+    setToggleSideMenu(false);
+  };
 
   return (
     <>
@@ -17,24 +22,23 @@ const Navbar = () => {
             onClick={() => setToggleSideMenu(!toggleSideMenu)}
           />
           <div className="navContainer">
-            <h1 className="logo">
-              <span>Construct</span> | Home Renovations
-            </h1>
+            <img src={logo} alt="logo" className="logo" />
+
             <ul className="navItems">
-              <NavLink to={"/home"} className="navLinks">
+              <NavLink to={"/"} className="navLinks">
                 home
-              </NavLink>
-              <NavLink to={"/contact"} className="navLinks">
-                contact
               </NavLink>
               <NavLink to={"/service"} className="navLinks">
                 service
               </NavLink>
+              {/*<NavLink to={"/blog"} className="navLinks">
+                blog
+  </NavLink>*/}
               <NavLink to={"/about"} className="navLinks">
                 about
               </NavLink>
-              <NavLink to={"/blog"} className="navLinks">
-                blog
+              <NavLink to={"/contact"} className="navLinks">
+                contact
               </NavLink>
             </ul>
           </div>
@@ -55,7 +59,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <Sidemenu toggle={toggleSideMenu} />
+        <Sidemenu toggle={toggleSideMenu} closeSidemenu={handleClose} />
         <Tab />
       </nav>
     </>

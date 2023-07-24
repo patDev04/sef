@@ -31,7 +31,7 @@ const Footer = () => {
               <br />
               <ul className="footerItems">
                 <li>
-                  <Link to={"/home"} className="footerLink">
+                  <Link to={"/"} className="footerLink">
                     home
                   </Link>
                 </li>
