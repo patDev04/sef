@@ -1,32 +1,20 @@
 {
   "files": {
-    "main.css": "/sef/static/css/main.ba098f53.css",
-    "main.js": "/sef/static/js/main.9454804a.js",
+    "main.css": "/sef/static/css/main.e1996445.css",
+    "main.js": "/sef/static/js/main.d7beda00.js",
     "static/media/IMG_1091.jpeg": "/sef/static/media/IMG_1091.1f34449612511b558028.jpeg",
-    "static/media/IMG_3547.jpeg": "/sef/static/media/IMG_3547.68c7d9a9183edd4e83ff.jpeg",
-    "static/media/IMG_3696.jpeg": "/sef/static/media/IMG_3696.95d34970a9644187050c.jpeg",
-    "static/media/IMG_3023.jpeg": "/sef/static/media/IMG_3023.13c887af31c1bf4e538b.jpeg",
-    "static/media/IMG_3726.jpeg": "/sef/static/media/IMG_3726.16a8e90a054e3909b62a.jpeg",
-    "static/media/IMG_7326.jpeg": "/sef/static/media/IMG_7326.3d4da22c4ed2a9ed7f2d.jpeg",
     "static/media/IMG_1956.jpeg": "/sef/static/media/IMG_1956.6531ccd00e2286cd2612.jpeg",
-    "static/media/IMG_1923.jpeg": "/sef/static/media/IMG_1923.245142ce81de38749e32.jpeg",
     "static/media/IMG_1900.jpeg": "/sef/static/media/IMG_1900.f59ebf037c6c95bdca00.jpeg",
-    "static/media/IMG_2706.jpeg": "/sef/static/media/IMG_2706.41b5ec35a90245bb6cd3.jpeg",
-    "static/media/IMG_8528.jpeg": "/sef/static/media/IMG_8528.4eee44cc32163b6826da.jpeg",
-    "static/media/IMG_7685.jpeg": "/sef/static/media/IMG_7685.ac0b1c7f36915de87daa.jpeg",
-    "static/media/uo.jpg": "/sef/static/media/uo.ac73a6c00823bcf099db.jpg",
     "static/media/ui.jpg": "/sef/static/media/ui.5e1b542d1b5f28841001.jpg",
-    "static/media/up.jpg": "/sef/static/media/up.33990ccae6d44842e592.jpg",
     "static/media/uh.jpg": "/sef/static/media/uh.65a85e6977928d50aea0.jpg",
     "static/media/uj.jpg": "/sef/static/media/uj.39e6857703691029cab0.jpg",
-    "static/media/um.jpg": "/sef/static/media/um.787be61dae407c3b7a39.jpg",
     "static/media/Full-LogofinalAsset 11.svg": "/sef/static/media/Full-LogofinalAsset 11.eefe1999af1c48e3ad838e94e6617495.svg",
     "index.html": "/sef/index.html",
-    "main.ba098f53.css.map": "/sef/static/css/main.ba098f53.css.map",
-    "main.9454804a.js.map": "/sef/static/js/main.9454804a.js.map"
+    "main.e1996445.css.map": "/sef/static/css/main.e1996445.css.map",
+    "main.d7beda00.js.map": "/sef/static/js/main.d7beda00.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba098f53.css",
-    "static/js/main.9454804a.js"
+    "static/css/main.e1996445.css",
+    "static/js/main.d7beda00.js"
   ]
 }
