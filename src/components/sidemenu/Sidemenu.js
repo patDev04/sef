@@ -17,23 +17,13 @@ const Sidemenu = ({ toggle, closeSidemenu }) => {
           </Link>
         </li>
         <li className="sidelist">
-          <Link to={"/contact"} className="Links" onClick={closeSidemenu}>
-            contact
-          </Link>
-        </li>
-        <li className="sidelist">
-          <Link to={"/service"} className="Links" onClick={closeSidemenu}>
-            service
-          </Link>
-        </li>
-        <li className="sidelist">
           <Link to={"/about"} className="Links" onClick={closeSidemenu}>
             about
           </Link>
         </li>
         <li className="sidelist">
-          <Link to={"/blog"} className="Links" onClick={closeSidemenu}>
-            blog
+          <Link to={"/contact"} className="Links" onClick={closeSidemenu}>
+            contact
           </Link>
         </li>
       </ul>

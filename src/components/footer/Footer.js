@@ -17,39 +17,33 @@ const Footer = () => {
           <div className="footerContainer">
             <div className="col footer-col">
               <img src={footerlogo} alt="footerlogo" className="footerlogo" />
-              <br />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                dolore rem dolores iure neque ea repellat, doloribus assumenda
-                maxime vero laborum aspernatur maiores nam minima facilis
-                corrupti quidem ullam eum.
-              </p>
             </div>
+            <br />
             <div className="col footer-col">
               <h3>MENU</h3>
               <br />
               <ul className="footerItems">
-                <li>
+                <li className="fotlink">
                   <Link to={"/"} className="footerLink">
                     home
                   </Link>
                 </li>
-                <li>
+                <li className="fotlink">
                   <Link to={"/about"} className="footerLink">
                     about
                   </Link>
                 </li>
-                <li>
+                <li className="fotlink">
                   <Link to={"/blog"} className="footerLink">
                     blog
                   </Link>
                 </li>
-                <li>
+                <li className="fotlink">
                   <Link to={"/service"} className="footerLink">
                     service
                   </Link>
                 </li>
-                <li>
+                <li className="fotlink">
                   <Link to={"/contact"} className="footerLink">
                     contact
                   </Link>
@@ -60,11 +54,12 @@ const Footer = () => {
               <h3>CONTACT INFO</h3>
               <br />
               <ul>
-                <li className="footerLink">North & West London</li>
-                <li className="footerLink">United Kingdom</li>
-                <li className="footerLink ">077 3837 1960</li>
+                <li className="footercontant">North London</li>
+                <li className="footercontant">United Kingdom</li>
+                <li className="footercontant">N00 000</li>
+                <li className="footercontant ">0000 000 0000</li>
                 <br />
-                <li className="footerLink">Monday - Friday: 8:00 - 18:00</li>
+                <li className="footercontant">Monday - Friday: 8:00 - 18:00</li>
                 <div className="footersocials">
                   <div>
                     <SlSocialFacebook className="footersocialsIcon" />
@@ -86,7 +81,10 @@ const Footer = () => {
       </div>
       <footer className="copyright">
         <main>
-          <p>all rights have been reserved</p>
+          <p className="copy">
+            {" "}
+            all rights have been reserved &#169; epulent extension
+          </p>
         </main>
       </footer>
     </>

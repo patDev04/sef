@@ -20,7 +20,6 @@ const Panel = () => {
             <br />
             <button className="service-btn">READ MORE</button>
           </article>
-
           <article className="panelCard">
             <h4>CUTTING-EDGE DESIGNS</h4>
             <br />
@@ -29,13 +28,11 @@ const Panel = () => {
           <article className="panelCard">
             <h4>CLIENT CENTRIC FOCUS</h4>
             <br />
-
             <p>Quality, value, and customer satisfaction are our focus</p>
           </article>
           <article className="panelCard">
             <h4>CLIENT CENTRIC FOCUS</h4>
             <br />
-
             <p>Professional project management and supervision service</p>
           </article>
         </div>

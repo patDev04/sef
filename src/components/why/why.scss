@@ -1,9 +1,10 @@
 @import "../../variables.scss";
 
 .why {
-  background-color: rgb(7, 7, 7);
+  background-color: #262626;
   color: white;
-  padding: 12rem 0;
+  padding-top: 6rem;
+  padding-bottom: 12rem;
 }
 
 .whyContainer {
@@ -12,6 +13,11 @@
   gap: 40px;
   @include breakpoint(lg) {
     display: block;
+  }
+
+  .light {
+    font-weight: 300;
+    color: rgb(160, 207, 180);
   }
 }
 

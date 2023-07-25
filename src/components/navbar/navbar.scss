@@ -30,13 +30,13 @@
   }
 
   .logo {
-    width: 25rem;
+    width: 20rem;
     margin-right: 2rem;
     font-size: 2rem;
 
-    // @include breakpoint(lg) {
-    //   width: 80%;
-    // }
+    @include breakpoint(sm) {
+      width: 15rem;
+    }
   }
 
   .navItems,

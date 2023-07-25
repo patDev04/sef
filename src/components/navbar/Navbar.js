@@ -28,12 +28,6 @@ const Navbar = () => {
               <NavLink to={"/"} className="navLinks">
                 home
               </NavLink>
-              <NavLink to={"/service"} className="navLinks">
-                service
-              </NavLink>
-              {/*<NavLink to={"/blog"} className="navLinks">
-                blog
-  </NavLink>*/}
               <NavLink to={"/about"} className="navLinks">
                 about
               </NavLink>

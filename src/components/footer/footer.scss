@@ -1,50 +1,65 @@
 @import "../../variables.scss";
 
 .footer {
-  // position: relative;
-  background-color: #050c0a;
+  background-color: rgb(43, 53, 48);
   padding: 6rem 0;
   border-top: solid rgb(19, 19, 19) 1px;
-  color: whitesmoke;
+  color: rgb(203, 203, 203);
 }
 
 .footerlogo {
-  width: 25rem;
+  width: 18rem;
 }
 .footerContainer {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
   @include breakpoint(lg) {
     display: block;
   }
 }
 
+.fotlink {
+  margin-bottom: 1.5rem;
+}
+
 .footerLink {
-  text-decoration: none;
   color: inherit;
   font-size: 1.3rem;
-  text-transform: capitalize;
+  margin-bottom: 1rem;
   cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+
   &:hover {
     color: grey;
   }
 }
 
+.footercontant {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
 .footersocials {
   display: flex;
-  margin-top: 2rem;
-  justify-content: space-between;
+  margin-top: 4rem;
   .footersocialsIcon {
-    font-size: 2rem;
+    font-size: 4rem;
     cursor: pointer;
+    padding: 1rem;
+    margin-right: 1rem;
   }
 }
 
 .copyright {
   position: relative;
-  background-color: teal;
+  background-color: rgb(0, 0, 0);
   padding: 0.6rem 0;
   color: white;
   bottom: 0;
+  .copy {
+    font-size: 1rem;
+    text-transform: capitalize;
+  }
 }

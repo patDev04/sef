@@ -21,6 +21,9 @@ const Home = () => {
                 Experts in House Extensions, Loft Conversions, and Design &
                 Build Solutions
               </h2>
+              <br />
+              <br />
+              <button className="service-btn">CONTACT US</button>
             </div>
           </div>
         </div>
@@ -30,7 +33,7 @@ const Home = () => {
       <main>
         <Carousel />
       </main>
-      <Construct />
+      {/*  <Construct />*/}
       <Why />
     </>
   );

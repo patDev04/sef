@@ -12,7 +12,10 @@ const Why = () => {
       <main>
         <div className="whyContainer">
           <div className="col colone">
-            <h3>WHY WE ARE THE RIGHT SOLUTION FOR YOU</h3>
+            <h3 className="light">
+              WHY OPULENT EXTENSION ARE THE RIGHT SOLUTION FOR YOU
+            </h3>
+            <br />
             <h2>
               Go ahead and remodel your home with the plethora of building
               services available on our website!
@@ -25,7 +28,6 @@ const Why = () => {
               decorating.
             </p>
             <br />
-            <button className="service-btn">our service</button>
           </div>
           <div className="col ">
             <div className="tabContainer">
@@ -34,25 +36,19 @@ const Why = () => {
                   className={toggle === 1 ? "tabs active-tabs" : " tabs"}
                   onClick={() => handleToggle(1)}
                 >
-                  sustanibale solution
+                  Experience and Excellence
                 </h4>
                 <h4
                   className={toggle === 2 ? "tabs active-tabs" : "tabs"}
                   onClick={() => handleToggle(2)}
                 >
-                  custom built homes
+                  Tailored to Your Needs
                 </h4>
                 <h4
                   className={toggle === 3 ? "tabs active-tabs" : "tabs"}
                   onClick={() => handleToggle(3)}
                 >
-                  interrgity
-                </h4>
-                <h4
-                  className={toggle === 4 ? "tabs active-tabs" : "tabs"}
-                  onClick={() => handleToggle(4)}
-                >
-                  planing
+                  Professionalism at every step
                 </h4>
               </div>
             </div>
@@ -61,32 +57,29 @@ const Why = () => {
               <p
                 className={toggle === 1 ? "content  active-content" : "content"}
               >
-                Do you know how we leave customers feeling extremely satisfied?
-                We follow a strict code every time- Efficiency, Reliability,
-                Honesty. This way, all our projects are quality oriented, and
-                our work is punctual and safe.
+                With years of experience in the industry, we have established
+                ourselves as experts in house extensions, loft conversions, and
+                design & build solutions. We take pride in delivering
+                exceptional craftsmanship, personalized service, and outstanding
+                results that exceed our clients' expectations.
               </p>
               <p
                 className={toggle === 2 ? "content active-content" : "content"}
               >
-                As we pride ourselves on your quality construction work,
-                Moatbrook specializes in different sectors to fit your needs.
-                These include home refurbishment, re-development or custom
-                building.
+                We understand that every home and every client is unique. That's
+                why our team takes the time to listen to your ideas,
+                requirements, and budget constraints, ensuring that our
+                solutions are tailored to your specific needs. Your satisfaction
+                is our top priority.
               </p>
               <p
                 className={toggle === 3 ? "content active-content" : "content"}
               >
-                We are model of rectitude; we can link you with professional and
-                legal services or provide you with advice that will exceed your
-                quality expectations.
-              </p>
-              <p
-                className={toggle === 4 ? "content active-content" : "content"}
-              >
-                We prioritize quality in every project we take up! Don’t fret,
-                we ensure that customers are satisfied, and projects are managed
-                properly.
+                From the initial consultation to the final touches, we maintain
+                the highest level of professionalism and transparency. Our
+                dedicated project managers ensure that your project runs
+                smoothly, keeping you informed throughout the entire process.
+                Sit back, relax, and let us handle the rest.
               </p>
             </div>
           </div>

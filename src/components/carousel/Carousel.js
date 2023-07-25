@@ -3,52 +3,35 @@ import "./carousel.scss";
 import img1 from "../../images/uh.jpg";
 import img2 from "../../images/ui.jpg";
 import img3 from "../../images/uj.jpg";
-import img4 from "../../images/uo.jpg";
-import img5 from "../../images/up.jpg";
-import img6 from "../../images/um.jpg";
+import { Link } from "react-router-dom";
+import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Carousel = () => {
   return (
     <div className="carousel">
       <div className="carouseContainer">
-        <div className="imgWrapper .gradient">
+        <Link to={"/service/house-extensions"} className="imgWrapper ">
           <img src={img1} alt="" className="carouselImg" />
           <div className="heading">
-            <h2>general</h2>
+            <h2>House Extensions</h2>
+            <HiArrowNarrowRight className="arrow" />
           </div>
-        </div>
-        <div className="imgWrapper">
+        </Link>
+        <Link to={"/service/loft-conversions"} className="imgWrapper">
           <img src={img2} alt="" className="carouselImg" />
           <div className="heading">
-            <h2>electrical installation</h2>
+            <h2>Loft Conversions</h2>
+            <HiArrowNarrowRight className="arrow" />
           </div>
-        </div>
-        <div className="imgWrapper">
+        </Link>
+        <Link to={"/service/design-&-Build"} className="imgWrapper">
           <img src={img3} alt="" className="carouselImg" />
           <div className="heading">
-            <h2>painting & decorating</h2>
+            <h2>Design & Build</h2>
+            <HiArrowNarrowRight className="arrow" />
           </div>
-        </div>
-        <div className="imgWrapper">
-          <img src={img4} alt="" className="carouselImg" />
-          <div className="heading">
-            <h2>kitchen & bathroom</h2>
-          </div>
-        </div>
-        <div className="imgWrapper">
-          <img src={img5} alt="" className="carouselImg" />
-          <div className="heading">
-            <h2>flooring</h2>
-          </div>
-        </div>
-        <div className="imgWrapper">
-          <img src={img6} alt="" className="carouselImg" />
-          <div className="heading">
-            <h2>roofing</h2>
-          </div>
-        </div>
+        </Link>
       </div>
-      <button className="service-btn btn">all our service</button>
     </div>
   );
 };

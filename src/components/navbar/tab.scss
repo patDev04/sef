@@ -18,8 +18,12 @@
     padding: 0rem 2rem;
     display: block;
     position: absolute;
-    top: 9.5rem;
+    top: 8.8rem;
     width: 100%;
+  }
+
+  @include breakpoint(sm) {
+    top: 7.6rem;
   }
 
   .tabdesk {

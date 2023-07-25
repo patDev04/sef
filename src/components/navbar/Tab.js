@@ -14,7 +14,7 @@ const Tab = () => {
   return (
     <nav className="tab">
       <div className="tabNavi" onClick={() => setShowSupport(!showSupport)}>
-        <h4 className="tabNaviSupport">support</h4>
+        <h4 className="tabNaviSupport">service</h4>
         <BsChevronDown
           className={showSupport ? "chevron active" : "chevron "}
         />
@@ -23,70 +23,40 @@ const Tab = () => {
       <div className="tabTab">
         <ul className={showSupport ? "tabTabItems active" : "tabTabItems"}>
           <NavLink
-            to={"/service/loftconversion"}
+            to={"/service/house-extensions"}
             className="tabnavLink"
             onClick={handleClose}
           >
-            Loft conversion
+            House Extensions
           </NavLink>
           <NavLink
-            to={"/service/loftconversion"}
+            to={"/service/loft-conversions"}
             className="tabnavLink"
             onClick={handleClose}
           >
-            Extension
+            Loft Conversions
           </NavLink>
           <NavLink
-            to={"/service/loftconversion"}
+            to={"/service/design-&-build"}
             className="tabnavLink"
             onClick={handleClose}
           >
-            Full house refurbishment
-          </NavLink>
-          <NavLink
-            to={"/service/loftconversion"}
-            className="tabnavLink"
-            onClick={handleClose}
-          >
-            Driveways
-          </NavLink>
-          <NavLink
-            to={"/service/loftconversion"}
-            className="tabnavLink"
-            onClick={handleClose}
-          >
-            Summer houses 
-          </NavLink>
-          <NavLink
-            to={"/service/loftconversion"}
-            className="tabnavLink"
-            onClick={handleClose}
-          >
-            Roofing
+            Design & Build
           </NavLink>
         </ul>
       </div>
 
       <div className="tabdesk">
-        <h4 className="tabSupport">support</h4>
+        <h4 className="tabSupport">service</h4>
         <ul className="tabItems">
-          <NavLink to={"/service/loftconversion"} className="tabLinks">
-            Loft conversion
+          <NavLink to={"/service/house-extensions"} className="tabLinks">
+            House Extensions
           </NavLink>
-          <NavLink to={"/service/loftconversion"} className="tabLinks">
-            Extension
+          <NavLink to={"/service/loft-conversions"} className="tabLinks">
+            Loft Conversions
           </NavLink>
-          <NavLink to={"/service/loftconversion"} className="tabLinks">
-            Full house refurbishment
-          </NavLink>
-          <NavLink to={"/service/loftconversion"} className="tabLinks">
-            Driveways
-          </NavLink>
-          <NavLink to={"/service/loftconversion"} className="tabLinks">
-            Summer houses 
-          </NavLink>
-          <NavLink to={"/service/loftconversion"} className="tabLinks">
-            Roofing
+          <NavLink to={"/service/design-&-build"} className="tabLinks">
+            Design & Build
           </NavLink>
         </ul>
       </div>
