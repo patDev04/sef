@@ -7,6 +7,7 @@ import {
   SlSocialYoutube,
   SlSocialTwitter,
 } from "react-icons/sl";
+import footerlogo from "../../images/Full-LogofinalAsset 11.svg";
 
 const Footer = () => {
   return (
@@ -15,9 +16,7 @@ const Footer = () => {
         <main>
           <div className="footerContainer">
             <div className="col footer-col">
-              <h3 className="logo">
-                <span>Construct</span> | Home Renovations
-              </h3>
+              <img src={footerlogo} alt="footerlogo" className="footerlogo" />
               <br />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque

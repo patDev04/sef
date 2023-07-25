@@ -2,10 +2,15 @@
 
 .footer {
   // position: relative;
+  background-color: #050c0a;
   padding: 6rem 0;
   border-top: solid rgb(19, 19, 19) 1px;
+  color: whitesmoke;
 }
 
+.footerlogo {
+  width: 25rem;
+}
 .footerContainer {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;

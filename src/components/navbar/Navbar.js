@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import Tab from "./Tab";
 import Sidemenu from "../sidemenu/Sidemenu";
 import { RxHamburgerMenu } from "react-icons/rx";
-import logo from "../../images/logo.svg";
+import logo from "../../images/Full-LogofinalAsset 11.svg";
 
 const Navbar = () => {
   const [toggleSideMenu, setToggleSideMenu] = useState(false);
