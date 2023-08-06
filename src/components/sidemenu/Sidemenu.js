@@ -26,6 +26,11 @@ const Sidemenu = ({ toggle, closeSidemenu }) => {
             contact
           </Link>
         </li>
+        <li className="sidelist">
+          <Link to={"/projects"} className="Links" onClick={closeSidemenu}>
+            Projects
+          </Link>
+        </li>
       </ul>
       <div className="socials">
         <div className="socialsIcon">

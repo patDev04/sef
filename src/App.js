@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import Extension from "./pages/service/Extension";
 import Loft from "./pages/service/Loft";
 import Design from "./pages/service/Design";
+import Projects from "./pages/projects/Projects";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="/service/house-extensions" element={<Extension />} />
           <Route path="/service/loft-conversions" element={<Loft />} />
           <Route path="/service/design-&-build" element={<Design />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/error-page" element={<errorPage />} />
         </Routes>
         <Footer />
       </div>
