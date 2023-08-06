@@ -33,7 +33,6 @@ const Home = () => {
       <main>
         <Carousel />
       </main>
-      {/*  <Construct />*/}
       <Why />
     </>
   );

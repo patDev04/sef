@@ -1,66 +1,125 @@
 @import "../../variables.scss";
 
-.service {
-  .serviceImg {
-    width: 100%;
-    height: 30vh;
-    background-color: $greenDark;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+.section {
+  background-color: whitesmoke;
+  padding: 6rem 0;
+  margin-top: 3rem;
 
-    @include breakpoint(sm) {
-      height: 35vh;
-    }
+  @include breakpoint(md) {
+    margin-top: 10rem;
   }
 
-  .serviceHeader {
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 800;
-    .text-color {
-      color: $green;
+  @include breakpoint(sm) {
+    margin-top: 20rem;
+  }
+
+  @include breakpoint(xs) {
+    margin-top: 35rem;
+  }
+}
+
+.subServiceHeader {
+  padding: 0.5rem;
+  background-color: whitesmoke;
+  color: grey;
+  border: solid grey 1px;
+  font-size: 1.9rem;
+  font-family: inherit;
+  width: fit-content;
+}
+
+.service-img-container {
+  position: relative;
+  display: flex;
+  // grid-template-columns: 1.5fr 1fr;
+  @include breakpoint(lg) {
+    display: block;
+    margin-bottom: 4rem;
+  }
+
+  .subheader {
+    padding: 2rem;
+    position: relative;
+  }
+}
+
+.service-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  position: relative;
+}
+
+.col-serv {
+  @include breakpoint(lg) {
+    height: 60vh;
+  }
+}
+
+.col-serv:nth-child(2) {
+  padding: 2rem;
+  position: relative;
+}
+
+.highlight {
+  color: $green;
+  @include breakpoint(md) {
+    display: block;
+  }
+}
+
+.service-wrapper {
+  margin: 6rem 0;
+}
+.serviceCardContainer {
+  display: flex;
+  gap: 15px;
+  margin-top: 6rem;
+  margin-bottom: 12rem;
+  @include breakpoint(lg) {
+    display: block;
+  }
+
+  .service-card {
+    background-color: floralwhite;
+    border: solid 1px rgb(250, 222, 165);
+    padding: 2rem;
+  }
+}
+
+.approachCardContainer {
+  gap: 20px;
+}
+
+.approach-card {
+  margin: 3rem 0;
+  padding: 2rem;
+  border: solid 1px;
+  .headers {
+    display: flex;
+    align-items: center;
+    .a-icon {
+      margin-right: 2rem;
+      font-size: 2rem;
     }
   }
 }
 
-.serviceCardContainer {
-  position: relative;
-  top: -5rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: space-between;
-  gap: 20px;
-  @include breakpoint(md) {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.a-descrip {
+  margin-left: 4rem;
+}
 
-  @include breakpoint(sm) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .serviceCard {
-    width: 100%;
-
-    .cardImg {
-      width: 100%;
-      height: 20rem;
-      object-fit: cover;
-      object-position: center;
-    }
-
-    .cardBtn {
-      border: none;
-      background-color: transparent;
-      color: inherit;
-      cursor: pointer;
-      font-size: 1.5rem;
-      transition: 0.3s;
-      font-weight: 3 00;
-      &:hover {
-        color: black;
-      }
-    }
-  }
+.green {
+  background-color: rgb(217, 247, 228);
+  border-color: rgb(134, 247, 176);
+}
+.blue {
+  background-color: rgb(217, 238, 247);
+  border-color: rgb(144, 220, 253);
+}
+.orange {
+  background-color: rgb(247, 229, 217);
+  border-color: rgb(247, 194, 159);
 }

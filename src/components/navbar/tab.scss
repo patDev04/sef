@@ -36,6 +36,13 @@
   .tabItems {
     padding: 0.5rem;
   }
+  .tabLinks {
+    transition: all 0.3s;
+    &.active {
+      color: $green !important;
+      text-decoration: underline;
+    }
+  }
 
   .tabLinks,
   .tabSupport {
@@ -124,7 +131,8 @@
   color: inherit;
   border-top: solid 1px rgb(224, 224, 224);
   transition: ease 0.3s;
-  &:hover {
-    color: grey;
-  }
+
+  // &:hover {
+  //   color: grey;
+  // }
 }

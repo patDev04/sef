@@ -17,6 +17,11 @@ const Footer = () => {
           <div className="footerContainer">
             <div className="col footer-col">
               <img src={footerlogo} alt="footerlogo" className="footerlogo" />
+
+              <p>
+                Transforming Your Home, Creating Your Dreams. Experts in House
+                Extensions, Loft Conversions, and Design & Build Solutions
+              </p>
             </div>
             <br />
             <div className="col footer-col">

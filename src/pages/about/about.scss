@@ -1,0 +1,57 @@
+@import "../../variables.scss";
+
+.header {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  margin-top: 6rem;
+  .lightweight {
+    font-weight: 300;
+    font-size: 2rem;
+    color: $green;
+  }
+}
+.partition {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  color: $green;
+}
+
+.a-heading {
+  margin: 1rem 0;
+}
+
+.paragraph-one {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  .one {
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+  }
+}
+
+.icon-point {
+  margin-right: 1rem;
+}
+
+.why-section {
+  background-color: whitesmoke;
+  padding: 4rem 0;
+}
+.list-heading {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.why-list {
+  margin: 2rem 0;
+}
+
+.serv {
+  padding: 4rem 0;
+}

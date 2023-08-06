@@ -1,8 +1,8 @@
 import React from "react";
 import "./carousel.scss";
-import img1 from "../../images/uh.jpg";
-import img2 from "../../images/ui.jpg";
-import img3 from "../../images/uj.jpg";
+import img1 from "../../images/IMG_3067.jpeg";
+import img2 from "../../images/poi.jpg";
+import img3 from "../../images/ass.jpg";
 import { Link } from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
 

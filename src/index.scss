@@ -12,6 +12,7 @@
 
 html {
   font-size: 62.5%;
+  // font-size: calc(18px - 1vmin);
   font-family: "Poppins", sans-serif;
 }
 body {
@@ -36,7 +37,7 @@ h3 {
 
 h4,
 p {
-  font-size: 1.4rem;
+  font-size: 1.45rem;
 }
 
 ul {
@@ -44,7 +45,8 @@ ul {
 }
 
 main {
-  margin: 0 18rem;
+  margin: 0 12rem;
+  position: relative;
 
   @include breakpoint(xl) {
     margin: 0 6rem;

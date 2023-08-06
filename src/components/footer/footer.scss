@@ -9,13 +9,21 @@
 
 .footerlogo {
   width: 18rem;
+  margin-bottom: 1rem;
 }
 .footerContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   gap: 20px;
-  @include breakpoint(lg) {
+  @include breakpoint(md) {
     display: block;
+  }
+}
+
+.footer-col {
+  width: 30rem;
+  @include breakpoint(md) {
+    width: 100%;
   }
 }
 
@@ -49,6 +57,10 @@
     cursor: pointer;
     padding: 1rem;
     margin-right: 1rem;
+    &:hover {
+      transition: all 0.4s;
+      color: rgba(128, 128, 128, 0.767);
+    }
   }
 }
 
