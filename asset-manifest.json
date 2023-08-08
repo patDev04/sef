@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sef/static/css/main.0ecd137f.css",
-    "main.js": "/sef/static/js/main.b00abff3.js",
+    "main.css": "/sef/static/css/main.05385628.css",
+    "main.js": "/sef/static/js/main.65fc2247.js",
     "static/media/vh.mp4": "/sef/static/media/vh.d01f53ac0e3b446326b8.mp4",
     "static/media/vz.mp4": "/sef/static/media/vz.d01f53ac0e3b446326b8.mp4",
     "static/media/vc.mp4": "/sef/static/media/vc.0f45be06c2580bed7810.mp4",
@@ -68,15 +68,16 @@
     "static/media/about1.jpg": "/sef/static/media/about1.4920fde441e6b408854f.jpg",
     "static/media/uj.jpg": "/sef/static/media/uj.39e6857703691029cab0.jpg",
     "static/media/vs.jpg": "/sef/static/media/vs.25ebc796649012320efe.jpg",
+    "static/media/contact.svg": "/sef/static/media/contact.e922b5127e96ec97b6275166fe6ca490.svg",
     "static/media/vf.jpg": "/sef/static/media/vf.8f49027a48c41126ff30.jpg",
     "static/media/um.jpg": "/sef/static/media/um.787be61dae407c3b7a39.jpg",
     "static/media/Full-LogofinalAsset 11.svg": "/sef/static/media/Full-LogofinalAsset 11.eefe1999af1c48e3ad838e94e6617495.svg",
     "index.html": "/sef/index.html",
-    "main.0ecd137f.css.map": "/sef/static/css/main.0ecd137f.css.map",
-    "main.b00abff3.js.map": "/sef/static/js/main.b00abff3.js.map"
+    "main.05385628.css.map": "/sef/static/css/main.05385628.css.map",
+    "main.65fc2247.js.map": "/sef/static/js/main.65fc2247.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ecd137f.css",
-    "static/js/main.b00abff3.js"
+    "static/css/main.05385628.css",
+    "static/js/main.65fc2247.js"
   ]
 }
