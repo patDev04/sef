@@ -53,8 +53,11 @@
 }
 
 .col-serv {
-  @include breakpoint(lg) {
-    height: 60vh;
+  @include breakpoint(md) {
+    height: 50vh;
+  }
+  @include breakpoint(sm) {
+    height: 30vh;
   }
 }
 

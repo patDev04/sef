@@ -16,7 +16,7 @@ const Loft = () => {
           <div className="subheader">
             <h1>
               Loft Conversions:
-              <span className="highlight blue">Elevate Your Living Space</span>
+              <span className="highlight ">Elevate Your Living Space</span>
             </h1>
             <br />
             <p className="subServiceHeader">
