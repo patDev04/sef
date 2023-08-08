@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./home.scss";
 import Panel from "./../../components/panel/Panel";
 import Carousel from "../../components/carousel/Carousel";
 import Construct from "../../components/construct/Construct";
 import Why from "../../components/why/Why";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <div className="landing">

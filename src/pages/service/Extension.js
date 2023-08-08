@@ -17,7 +17,7 @@ const Extension = () => {
           <div className="subheader">
             <h1>
               House Extensions:
-              <span className="highlight orange">
+              <span className="highlight ">
                 Expanding Horizons, Enriching Homes
               </span>
             </h1>

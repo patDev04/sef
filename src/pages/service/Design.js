@@ -15,7 +15,7 @@ const Design = () => {
           <div className="subheader">
             <h1 className="hhead">
               Design & Build Solutions:
-              <span className="highlight green">Where Dreams Take Shape</span>
+              <span className="highlight ">Where Dreams Take Shape</span>
             </h1>
             <br />
             <p className="subServiceHeader">
